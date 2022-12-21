@@ -559,20 +559,16 @@ video {
   position: relative;
 }
 
+.right-0{
+  right: 0px;
+}
+
 .top-0{
   top: 0px;
 }
 
 .bottom-0{
   bottom: 0px;
-}
-
-.right-0{
-  right: 0px;
-}
-
-.right-6{
-  right: 1.5rem;
 }
 
 .z-50{
@@ -608,10 +604,6 @@ video {
 
 .mb-5{
   margin-bottom: 1.25rem;
-}
-
-.box-border{
-  box-sizing: border-box;
 }
 
 .block{
@@ -654,10 +646,6 @@ video {
   align-items: flex-start;
 }
 
-.items-end{
-  align-items: flex-end;
-}
-
 .items-center{
   align-items: center;
 }
@@ -678,14 +666,6 @@ video {
   gap: 1.5rem;
 }
 
-.gap-4{
-  gap: 1rem;
-}
-
-.gap-12{
-  gap: 3rem;
-}
-
 .space-x-8 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(2rem * var(--tw-space-x-reverse));
@@ -696,12 +676,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-}
-
-.space-x-6 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .break-all{
@@ -751,33 +725,12 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .pt-20{
   padding-top: 5rem;
 }
 
 .pl-6{
   padding-left: 1.5rem;
-}
-
-.pr-12{
-  padding-right: 3rem;
-}
-
-.pl-4{
-  padding-left: 1rem;
-}
-
-.pr-4{
-  padding-right: 1rem;
-}
-
-.pl-3{
-  padding-left: 0.75rem;
 }
 
 .font-body{
@@ -792,11 +745,6 @@ video {
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .font-extrabold{
@@ -894,9 +842,8 @@ video {
 .open {
   transform: rotate(90deg);
   transform: translateY(0px);
-  margin-top: -8px;
-  -webkit-margin-start: -24px;
-          margin-inline-start: -24px;
+  -webkit-margin-end: 24px;
+          margin-inline-end: 24px;
 }
 
 .open .hamburger-top {
@@ -957,14 +904,6 @@ video {
     width: 50%;
   }
 
-  .md\:w-1\/3{
-    width: 33.333333%;
-  }
-
-  .md\:w-2\/3{
-    width: 66.666667%;
-  }
-
   .md\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -997,28 +936,12 @@ video {
 }
 
 @media (min-width: 1024px){
-  .lg\:w-1\/3{
-    width: 33.333333%;
-  }
-
-  .lg\:w-2\/5{
-    width: 40%;
-  }
-
-  .lg\:w-5\/12{
-    width: 41.666667%;
-  }
-
   .lg\:w-1\/2{
     width: 50%;
   }
 
   .lg\:flex-row{
     flex-direction: row;
-  }
-
-  .lg\:justify-between{
-    justify-content: space-between;
   }
 
   .lg\:text-6xl{

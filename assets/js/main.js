@@ -1,5 +1,4 @@
 const openBtn = document.getElementById('menu-btn');
-const closeBtn = document.getElementById('close-btn');
 const nav = document.getElementById('menu');
 
 openBtn.addEventListener('click', () => {
