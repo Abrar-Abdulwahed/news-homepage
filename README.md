@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop-Preview](./my_design/desktop.png) ![Mobile-Preview](./my_design/mobile.png) ![Mobile-Menu-Preview](./my_design/mobile-menu.png)
+![Desktop-Preview](./my_design/desktop.png)
 
 ### Links
 
