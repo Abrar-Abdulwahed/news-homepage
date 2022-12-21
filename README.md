@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL:](https://github.com/Abrar-Abdulwahed/news-homepage)
-- [Live Site URL:](https://abrar-abdulwahed.github.io/news-homepage/)
+- [Solution URL](https://github.com/Abrar-Abdulwahed/news-homepage)
+- [Live Site URL](https://abrar-abdulwahed.github.io/news-homepage/)
 
 ## My process
 
