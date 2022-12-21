@@ -1,6 +1,6 @@
 # Frontend Mentor - News homepage solution
 
-This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -15,7 +15,6 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-
 ## Overview
 
 ### The challenge
@@ -27,15 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop-Preview](./my_design/desktop.png)
-![Mobile-Preview](./my_design/mobile.png)
-![Mobile-Menu-Preview](./my_design/mobile-menu.png)
-
+![Desktop-Preview](./my_design/desktop.png) ![Mobile-Preview](./my_design/mobile.png) ![Mobile-Menu-Preview](./my_design/mobile-menu.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL:](https://github.com/Abrar-Abdulwahed/news-homepage)
+- [Live Site URL:](https://abrar-abdulwahed.github.io/news-homepage/)
 
 ## My process
 
@@ -65,5 +61,3 @@ Tailwind Framework 🚀
 
 - Website - [Abrar Alkhorasani](https://www.your-site.com)
 - Frontend Mentor - [@Abrar-Abdulwahed](https://www.frontendmentor.io/profile/Abrar-Abdulwahed)
-- Linkedin - [Abrar Alkhorasani](https://www.linkedin.com/in/abrar-alkhorasani-b31472240/)
-
