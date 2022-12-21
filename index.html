@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- displays site properly based on user's device -->
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        >
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <title>Frontend Mentor | News homepage</title>
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+        </style>
+    </head>
+    <body class="bg-offWhite font-body leading-8">
+        <header class="container flex justify-between items-center mx-auto py-6 pt-20">
+            <div class="logo">
+                <img src="./assets/images/logo.svg" alt="">
+            </div>
+            <nav class="">
+                <ul class="hidden md:flex space-x-8 text-darkGrayishBlue">
+                    <li class="hover:text-softRed">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="hover:text-softRed">
+                        <a href="#">New</a>
+                    </li>
+                    <li class="hover:text-softRed">
+                        <a href="#">Popular</a>
+                    </li>
+                    <li class="hover:text-softRed">
+                        <a href="#">Trending</a>
+                    </li>
+                    <li class="hover:text-softRed">
+                        <a href="#">Categories</a>
+                    </li>
+                </ul>
+                <button id="menu-btn" class="hamburger relative md:hidden focus:outline-none z-50">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+                <!-- Mobile Menu -->
+                <div class="md:hidden">
+                    <div id="menu" class="fixed top-0 bottom-0 right-0 hidden flex-col justify-center items-start pl-6 space-y-6  drop-shadow-md md:space-x-8 text-darkGrayishBlue bg-offWhite w-8/12" style="
+                    transition: all 0.25s ease-in;">
+                        <a href="#" class="hover:text-softRed">Home</a>
+                        <a href="#" class="hover:text-softRed">New</a>
+                        <a href="#" class="hover:text-softRed">Popular</a>
+                        <a href="#" class="hover:text-softRed">Trending</a>
+                        <a href="#" class="hover:text-softRed">Categories</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="container flex flex-col md:flex-row md:space-x-6 mx-auto" id="hero">
+            <div class="flex flex-col md:w-1/2 xl:w-3/4 space-y-6">
+                <img src="./assets/images/image-web-3-mobile.jpg" alt="" class="md:hidden">
+                <img src="./assets/images/image-web-3-desktop.jpg" alt="" class="!mt-0 hidden md:block">
+                <div class="flex flex-col lg:flex-row justify-between space-y-6 md:space-y-0">
+                    <h1 class="text-4xl lg:text-6xl font-extrabold lg:w-1/2 text-veryDarkBlue">The Bright Future of Web 3.0?</h1>
+                    <div class="lg:w-1/2 space-y-6">
+                        <p>
+                            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                            But is it really fulfilling its promise?
+                        </p>
+                        <button class="block bg-softRed text-offWhite px-9 py-2 uppercase tracking-[.30em] hover:bg-veryDarkBlue">Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-veryDarkBlue md:w-1/2 xl:w-1/4 p-6 mt-12 md:my-0">
+                <h2 class="font-semibold text-3xl text-softOrange mb-5">New</h2>
+                <div class="py-6 border-b border-darkGrayishBlue">
+                    <span class="font-bold text-offWhite hover:text-softOrange">
+                        <a href="#">Hydrogen VS Electric Cars</a>
+                    </span>
+                    <p class="text-grayishBlue">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                </div>
+                <div class="py-6 border-b border-darkGrayishBlue">
+                    <span class="font-bold text-offWhite hover:text-softOrange">
+                        <a href="#">The Downsides of AI Artistry</a>
+                    </span>
+                    <p class="text-grayishBlue">What are the possible adverse effects of on-demand AI image generation?</p>
+                </div>
+                <div class="py-6 break-all">
+                    <span class="font-bold text-offWhite hover:text-softOrange">
+                        <a href="#">Is VC Funding Drying Up?</a>
+                    </span>
+                    <p class="text-grayishBlue">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto grid md:grid-cols-3 gap-6 justify-items-stretch my-12" id="list">
+            <div class="item flex gap-6">
+                <img src="./assets/images/image-retro-pcs.jpg" alt="" class="h-40 md:h-32">
+                <div class="flex grow flex-col justify-center md:justify-between">
+                    <span class="font-bold text-grayishBlue text-3xl">01</span>
+                    <h3 class="font-bold text-veryDarkBlue hover:text-softRed">
+                        <a href="#">Reviving Retro PCs</a>
+                    </h3>
+                    <p class="text-darkGrayishBlue">What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </div>
+            <div class="item flex gap-6">
+                <img src="./assets/images/image-top-laptops.jpg" alt="" class="h-40 md:h-32">
+                <div class="flex grow flex-col justify-center md:justify-between">
+                    <span class="font-bold text-grayishBlue text-3xl">02</span>
+                    <h3 class="font-bold text-veryDarkBlue my-3 hover:text-softRed">
+                        <a href="#">Top 10 Laptops of 2022</a>
+                    </h3>
+                    <p class="text-darkGrayishBlue">Our best picks for various needs and budgets.</p>
+                </div>
+            </div>
+            <div class="item flex gap-6">
+                <img src="./assets/images/image-gaming-growth.jpg" alt="" class="h-40 md:h-32">
+                <div class="flex grow flex-col justify-center md:justify-between">
+                    <span class="font-bold text-grayishBlue text-3xl">03</span>
+                    <h3 class="font-bold text-veryDarkBlue my-3 hover:text-softRed">
+                        <a href="#">The Growth of Gaming</a>
+                    </h3>
+                    <p class="text-darkGrayishBlue">How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </div>
+            <!-- <div class="item grid grid-cols-3 gap-6">
+                <img src="./assets/images/image-gaming-growth.jpg" alt="">
+                <div class="col-span-2">
+                    <span class="font-bold text-grayishBlue text-3xl">03</span>
+                    <h3 class="font-bold text-veryDarkBlue my-3 hover:text-softRed">
+                        <a href="#">The Growth of Gaming</a>
+                    </h3>
+                    <p class="text-darkGrayishBlue">How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </div> -->
+        </section>
+        <footer class="py-6">
+            <div class="attribution">
+                Challenge by
+                <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+                . 
+        Coded by
+                <a href="https://github.com/Abrar-Abdulwahed" target="_blank">Abrar Alkhorasani</a>
+                .
+            </div>
+        </footer>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
