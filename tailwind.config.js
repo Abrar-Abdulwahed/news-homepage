@@ -3,7 +3,7 @@ module.exports = {
   content: ['./*.html'],
   theme: {
     container: {
-      padding: 'clamp(12px, 6vw, 15em)',
+      padding: 'clamp(20px, 5vw, 14vw)',
     },
     extend: {
       colors: {

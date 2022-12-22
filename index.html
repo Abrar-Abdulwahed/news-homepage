@@ -19,11 +19,11 @@
         </style>
     </head>
     <body class="bg-offWhite font-body leading-8">
-        <nav class="container flex justify-between items-center mx-auto py-6 pt-20" role="navigation">
+        <nav class="container flex justify-between items-center mx-auto pb-10 pt-20" role="navigation">
             <div class="logo">
                 <img src="./assets/images/logo.svg" alt="">
             </div>
-            <ul class="hidden md:flex space-x-8 text-darkGrayishBlue">
+            <ul class="hidden md:flex space-x-10 text-darkGrayishBlue">
                 <li class="hover:text-softRed">
                     <a href="#">Home</a>
                 </li>
@@ -55,10 +55,12 @@
                 <a href="#" class="hover:text-softRed">Categories</a>
             </div>
         </nav>
-        <header class="container flex flex-col md:flex-row md:space-x-6 mx-auto" role="banner">
-            <div class="flex flex-col md:w-1/2 xl:w-3/4 space-y-6">
-                <img src="./assets/images/image-web-3-mobile.jpg" alt="" class="md:hidden">
-                <img src="./assets/images/image-web-3-desktop.jpg" alt="" class="!mt-0 hidden md:block">
+        <header class="container grid md:grid-cols-3 md:space-x-7 mx-auto" role="banner">
+            <div class="flex flex-col md:col-span-2 space-y-6">
+                <picture>
+                    <source srcset="./assets/images/image-web-3-desktop.jpg 600w" media="(min-width: 600px)">
+                    <img src="./assets/images/image-web-3-mobile.jpg" alt="image web3">
+                </picture>
                 <div class="flex flex-col lg:flex-row justify-between space-y-6 md:space-y-0">
                     <h1 class="text-4xl lg:text-6xl font-extrabold lg:w-1/2 text-veryDarkBlue">The Bright Future of Web 3.0?</h1>
                     <div class="lg:w-1/2 space-y-6">
@@ -70,8 +72,8 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-veryDarkBlue md:w-1/2 xl:w-1/4 p-6 mt-12 md:my-0">
-                <h2 class="font-semibold text-3xl text-softOrange mb-5">New</h2>
+            <div class="bg-veryDarkBlue p-7 lg:p-5 mt-12 md:my-0">
+                <h2 class="font-semibold text-3xl text-softOrange">New</h2>
                 <div class="py-6 border-b border-darkGrayishBlue">
                     <span class="font-bold text-offWhite hover:text-softOrange">
                         <a href="#">Hydrogen VS Electric Cars</a>
@@ -92,10 +94,10 @@
                 </div>
             </div>
         </header>
-        <section class="container mx-auto grid md:grid-cols-3 gap-6 justify-items-stretch my-12" id="list">
+        <section class="container mx-auto grid lg:grid-cols-3 gap-6 justify-items-stretch my-12" id="list">
             <div class="item flex gap-6">
-                <img src="./assets/images/image-retro-pcs.jpg" alt="" class="h-40 md:h-32">
-                <div class="flex grow flex-col justify-center md:justify-between">
+                <img src="./assets/images/image-retro-pcs.jpg" alt="retro image" class="h-40 object-cover">
+                <div class="flex flex-col justify-between">
                     <span class="font-bold text-grayishBlue text-3xl">01</span>
                     <h3 class="font-bold text-veryDarkBlue hover:text-softRed">
                         <a href="#">Reviving Retro PCs</a>
@@ -104,8 +106,8 @@
                 </div>
             </div>
             <div class="item flex gap-6">
-                <img src="./assets/images/image-top-laptops.jpg" alt="" class="h-40 md:h-32">
-                <div class="flex grow flex-col justify-center md:justify-between">
+                <img src="./assets/images/image-top-laptops.jpg" alt="top laptops" class="h-40 object-cover">
+                <div class="flex flex-col justify-between">
                     <span class="font-bold text-grayishBlue text-3xl">02</span>
                     <h3 class="font-bold text-veryDarkBlue my-3 hover:text-softRed">
                         <a href="#">Top 10 Laptops of 2022</a>
@@ -114,8 +116,8 @@
                 </div>
             </div>
             <div class="item flex gap-6">
-                <img src="./assets/images/image-gaming-growth.jpg" alt="" class="h-40 md:h-32">
-                <div class="flex grow flex-col justify-center md:justify-between">
+                <img src="./assets/images/image-gaming-growth.jpg" alt="gaming growth" class="h-40 object-cover">
+                <div class="flex flex-col justify-between">
                     <span class="font-bold text-grayishBlue text-3xl">03</span>
                     <h3 class="font-bold text-veryDarkBlue my-3 hover:text-softRed">
                         <a href="#">The Growth of Gaming</a>
