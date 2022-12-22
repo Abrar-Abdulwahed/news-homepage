@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.container {
+    width: clamp(200px, 80vw, 250vw);
+}
+
 /* Hamburger Menu */
 .hamburger {
     cursor: pointer;

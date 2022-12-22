@@ -2,9 +2,6 @@
 module.exports = {
   content: ['./*.html'],
   theme: {
-    container: {
-      padding: 'clamp(20px, 5vw, 14vw)',
-    },
     extend: {
       colors: {
         softOrange: 'hsl(35, 77%, 62%)',

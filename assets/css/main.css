@@ -517,8 +517,6 @@ video {
 
 .container{
   width: 100%;
-  padding-right: clamp(20px, 5vw, 14vw);
-  padding-left: clamp(20px, 5vw, 14vw);
 }
 
 @media (min-width: 640px){
@@ -650,6 +648,10 @@ video {
   justify-items: stretch;
 }
 
+.gap-5{
+  gap: 1.25rem;
+}
+
 .gap-6{
   gap: 1.5rem;
 }
@@ -734,6 +736,11 @@ video {
   font-family: Inter;
 }
 
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -760,8 +767,8 @@ video {
   text-transform: uppercase;
 }
 
-.leading-8{
-  line-height: 2rem;
+.leading-7{
+  line-height: 1.75rem;
 }
 
 .tracking-\[\.30em\]{
@@ -804,6 +811,10 @@ video {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+.container {
+  width: clamp(200px, 80vw, 250vw);
 }
 
 /* Hamburger Menu */
@@ -931,6 +942,11 @@ video {
 
   .lg\:p-5{
     padding: 1.25rem;
+  }
+
+  .lg\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .lg\:text-6xl{
